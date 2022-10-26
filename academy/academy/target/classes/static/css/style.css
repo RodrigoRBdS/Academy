@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	height: 90px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+a {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.btn-nav:hover {
+	color: #BA68C8;
+}
+
+.neo-section {
+	min-height: 540px;
+	background-size: cover !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 30px;
+	position: relative;
+}
+
+.wm {
+	width: 50%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.neo-container {
+	max-width: 1280px;
+	padding: 2% 2%;
+	margin: 0 auto;
+	margin-top: 160px;
+}
+
+.sombra {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+
+.neo-section>.neo-container {
+	position: relative;
+	z-index: 105;
+}
+
+.texto-centro {
+	color: #fff;
+	font-size: 3em;
+	font-family: 'Ubuntu';
+	font-weight: bold;
+}
+
+.btn {
+	width: 280px;
+	color: #fff;
+	border-radius: 10px;
+	border: 3px solid #105088;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.btne {
+	width: 140px;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #105088;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.btnen {
+	width: 130px;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #105088;
+	padding: 10px;
+	font-weight: bold;
+}
+.btnf {
+	width: 90px;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #105088;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.botoes {
+	padding: 2% 15%;
+}
+
+.btn:hover {
+	color: #18D8F0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rodape {
+	color: #fff;
+	background-color: #183858;
+	text-align: center;
+	font-size: 1.10em;
+}
+
+/* responsividade */
+@media screen and (max-width: 667px) {
+	.wm {
+		width: 100%;
+	}
+	nav {
+		height: 100%;
+	}
+	.neo-container {
+		margin-top: 120px;
+	}
+}
